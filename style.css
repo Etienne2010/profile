@@ -35,7 +35,16 @@ img {
   margin: 0 auto;
 }
 
+.sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
 .container {
+  margin-left: 300px;
   width: 1000px;
   margin: 0 auto;
 }
