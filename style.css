@@ -35,18 +35,22 @@ img {
   margin: 0 auto;
 }
 
-.sidebar {
+#sidebar {
   position: fixed;
   width: 300px;
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: rgb(150, 150, 150);
+  color: black;
+}
+
+#sidebar ul {
+  list-style-type: none;
 }
 
 .container {
   margin-left: 300px;
-  width: 1000px;
-  margin: 0 auto;
 }
 
 .card {
